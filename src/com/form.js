@@ -15,8 +15,10 @@ function formHandler(e){
    isDialog(true);
 }
 
-function printer(){
+function printer(e){
+   e.target.hidden = true;
 	window.print();
+   
 }
 
 
